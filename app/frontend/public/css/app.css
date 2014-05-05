@@ -1,0 +1,13 @@
+/* line 3, ../../styles/app.css.scss */
+html body .wrapper {
+  width: 800px;
+  margin: 0 auto;
+}
+/* line 6, ../../styles/app.css.scss */
+html body .wrapper .hero {
+  text-transform: uppercase;
+}
+/* line 8, ../../styles/app.css.scss */
+html body .wrapper .hero h1 {
+  font-size: 60px;
+}

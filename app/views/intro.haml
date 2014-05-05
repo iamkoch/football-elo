@@ -1,0 +1,57 @@
+%h1 How this works
+%p Go to /season/divison.
+%p
+  Season is in the format of
+  %i 1314
+  or
+  %i 1112
+%p
+  Divisions are prefixed by the country letters, which are
+  %table
+    %tr
+      %td England
+      %td E
+    %tr
+      %td Scotland
+      %td SC
+    %tr
+      %td Germany
+      %td D
+    %tr
+      %td Italy
+      %td I
+    %tr
+      %td Spain
+      %td SP
+    %tr
+      %td France
+      %td F
+    %tr
+      %td Netherlands
+      %td N
+    %tr
+      %td Belgium
+      %td B
+    %tr
+      %td Portugal
+      %td P
+    %tr
+      %td Turkey
+      %td T
+    %tr
+      %td Greece
+      %td G
+  And then by the divison number, which is zero-based. Some examples are
+  %table
+    %tr
+      %td English Premier League
+      %td E0
+    %tr
+      %td Spanish Second Division
+      %td S1
+%p
+  Example urls are:
+  %ul
+    %li /1314/E0
+    %li /1314/EC (conference)
+    %li /1112/SC1
